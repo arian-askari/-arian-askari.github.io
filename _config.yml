@@ -78,7 +78,7 @@ content:
         title: ECIR 2022
 #         link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/ecir2022_legal_expert_finding.pdf
         additional_links:
-          - title:  Legal Expert Finding
+          - title:  See code
             icon: fab fa-github
             url: github.com/arian-askari/EF_in_Legal_CQA
           - title:  See paper
@@ -91,11 +91,14 @@ content:
 
       - layout: left
         title: DESIRES 2021
-        link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/desires2021.pdf
+#         link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/desires2021.pdf
         additional_links:
-          - title:  longformer-based summarization for effective case law retrieval
+          - title:  See code
             icon: fab fa-github
             url: github.com/arian-askari/vanilla_longformer/
+          - title:  See paper
+            icon: fab fa-file-pdf
+            url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/desires2021.pdf
         sub_title: "Combining lexical and neural retrieval with longformer-based summarization for effective case law retrieval"
         description: | # this will include new lines to allow paragraphs
             In this paper, we combine lexical and neural ranking models for case law retrieval. In this task, the query is a full case document, and the candidate documents are prior cases that are potentially relevant to the current case. Most documents are longer than 1024 tokens, which makes retrieval and classification with Transformer-based models problematic. We create shorter query documents with different methods: term extraction, noun phrase extraction, entity extraction, and automatic summarization using Longformer-Encoder-Decoder (LED). We then combine the summaries with five different ranking models: a BM25 ranker, statistical language modelling, the Deep Relevance Matching Model (DRMM), a Vanilla BERT ranker, and a Longformer ranker. We optimised all models and combined the best lexical ranker with neural retrieval models using different ensemble classifiers. We evaluate our methods on the retrieval benchmarks from COLIEE’20 and COLIEE’21. We beat state-of-the-art models for case law retrieval with both benchmark sets. Our experiments show the importance of tuning lexical retrieval methods, summarizing query documents, and combining lexical and neural models into one ranker for effective case law retrieval.
@@ -103,11 +106,14 @@ content:
 
       - layout: left
         title: SIGIR 2019
-        link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/sigir2019_anonymous_commenting.pdf
+#         link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/sigir2019_anonymous_commenting.pdf
         additional_links:
-          - title:  Anonymous commenting
+          - title:  See code
             icon: fab fa-github
             url: github.com/arian-askari/anonymous-comment
+          - title:  See paper
+            icon: fab fa-file-pdf
+            url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/sigir2019_anonymous_commenting.pdf
         sub_title: "Anonymous Commenting: A Greedy Approach to Balance Utilization and Anonymity for Instagram Users"
         description: | # this will include new lines to allow paragraphs
             In many online services, anonymous commenting is not possible for the users; therefore, the users can not express their critical opinions without disregarding the consequences. As for now, naïve approaches are available for anonymous commenting which cause problems for analytical services on user comments. In this paper, we explore anonymous commenting approaches and their pros and cons. We also propose methods for anonymous commenting where it's possible to protect the user privacy while allowing sentimental analytics for service providers. Our experiments were conducted on a real dataset gathered from Instagram comments which indicate the effectiveness of our proposed methods in privacy protection and sentimental analytics. The proposed methods are independent of a particular website and can be utilized in various domains.
