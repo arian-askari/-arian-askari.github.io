@@ -97,7 +97,7 @@ content:
             icon: fab fa-github
             url: github.com/arian-askari/vanilla_longformer/
           - title:  See paper
-            icon: fab fa-file-pdf
+            icon: fas fa-file-pdf
             url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/desires2021.pdf
         sub_title: "Combining lexical and neural retrieval with longformer-based summarization for effective case law retrieval"
         description: | # this will include new lines to allow paragraphs
@@ -112,7 +112,7 @@ content:
             icon: fab fa-github
             url: github.com/arian-askari/anonymous-comment
           - title:  See paper
-            icon: fab fa-file-pdf
+            icon: fas fa-file-pdf
             url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/sigir2019_anonymous_commenting.pdf
         sub_title: "Anonymous Commenting: A Greedy Approach to Balance Utilization and Anonymity for Instagram Users"
         description: | # this will include new lines to allow paragraphs
