@@ -144,13 +144,20 @@ content:
 
   - title: Academic activities
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |+ # this will include new lines to allow paragraphs
       I have been reviewer for full paper track of the following conferences:
       - ACL-IJCNLP 2021
       - ECIR 2022
-      - SIGIR 2022 |
+      - SIGIR 2022
+      
       I have been a member of organization team for the following workshop: 
       - Dutch-Belgian Information Retrieval Workshop (DIR 2021)
+      I have been teaching assitan for the follwing courses:
+      - Information Retrieval, Spring 2022, Leiden University (LIACS)
+      - Information Retrieval, Fall 2018, Shahid Beheshti University
+      - Database Lab, Spring 2018, Shahid Beheshti University
+      - Database Lab, Spring 2017, Institute for Higher Education ACECR Khuzestan
+      - Operation Systems Lab, Fall 2016, Institute for Higher Education ACECR Khuzestan
 
   - title: A Little More About Me
     layout: text
