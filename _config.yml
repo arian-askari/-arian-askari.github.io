@@ -82,7 +82,7 @@ content:
             icon: fab fa-github
             url: github.com/arian-askari/EF_in_Legal_CQA
           - title:  See paper
-            icon: fad fa-file-pdf
+            icon: fa-duotone fa-file-pdf
             url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/ecir2022_legal_expert_finding.pdf
         sub_title: Expert Finding in Legal Community Question Answering
         
