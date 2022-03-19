@@ -76,7 +76,6 @@ content:
     content:
       - layout: left
         title: ECIR 2022
-#         link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/ecir2022_legal_expert_finding.pdf
         additional_links:
           - title:  See code
             icon: fab fa-github
@@ -91,7 +90,6 @@ content:
 
       - layout: left
         title: DESIRES 2021
-#         link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/desires2021.pdf
         additional_links:
           - title:  See code
             icon: fab fa-github
@@ -106,7 +104,6 @@ content:
 
       - layout: left
         title: SIGIR 2019
-#         link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/sigir2019_anonymous_commenting.pdf
         additional_links:
           - title:  See code
             icon: fab fa-github
@@ -117,6 +114,20 @@ content:
         sub_title: "Anonymous Commenting: A Greedy Approach to Balance Utilization and Anonymity for Instagram Users"
         description: | # this will include new lines to allow paragraphs
             In many online services, anonymous commenting is not possible for the users; therefore, the users can not express their critical opinions without disregarding the consequences. As for now, naïve approaches are available for anonymous commenting which cause problems for analytical services on user comments. In this paper, we explore anonymous commenting approaches and their pros and cons. We also propose methods for anonymous commenting where it's possible to protect the user privacy while allowing sentimental analytics for service providers. Our experiments were conducted on a real dataset gathered from Instagram comments which indicate the effectiveness of our proposed methods in privacy protection and sentimental analytics. The proposed methods are independent of a particular website and can be utilized in various domains.
+
+      - layout: left
+        title: CIKM 2018
+        additional_links:
+          - title:  See code
+            icon: fab fa-github
+            url: github.com/arashdn/Entity-Attribute-Identification
+          - title:  See paper
+            icon: fas fa-file-pdf
+            url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/cikm2018_entity_attr.pdf.pdf
+        sub_title: "Query Understanding via Entity Attribute Identification"
+        description: | # this will include new lines to allow paragraphs
+            Understanding searchers' queries is an essential component of semantic search systems. In many cases, search queries involve specific attributes of an entity in a knowledge base (KB), which can be further used to find query answers. In this study, we aim to move forward the understanding of queries by identifying their related entity attributes from a knowledge base. To this end, we introduce the task of entity attribute identification and propose two methods to address it:(i) a model based on Markov Random Field, and (ii) a learning to rank model. We develop a human annotated test collection and show that our proposed methods can bring significant improvements over the baseline methods.
+            
 #   - title: Education # Title for the section
 #     layout: list # Type of content section (list/text)
 #     content:
