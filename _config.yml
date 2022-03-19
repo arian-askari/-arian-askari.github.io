@@ -89,7 +89,7 @@ content:
 #     content:
       - layout: left
         title: SIGIR 2019
-        link: https://arxiv.org/abs/2201.07667
+        link: "https://www.researchgate.net/profile/Arian-Askari/publication/334584778_On_Anonymous_Commenting_A_Greedy_Approach_to_Balance_Utilization_and_Anonymity_for_Instagram_Users/links/5e1f4c1b92851caecc836aa9/On-Anonymous-Commenting-A-Greedy-Approach-to-Balance-Utilization-and-Anonymity-for-Instagram-Users.pdf"
         additional_links:
           - title:  Anonymous commenting
             icon: fab fa-github
