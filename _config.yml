@@ -89,14 +89,14 @@ content:
 #     content:
       - layout: left
         title: SIGIR 2019
-        link: https://www.researchgate.net/profile/Arian-Askari/publication/334584778_On_Anonymous_Commenting_A_Greedy_Approach_to_Balance_Utilization_and_Anonymity_for_Instagram_Users/links/5e1f4c1b92851caecc836aa9/On-Anonymous-Commenting-A-Greedy-Approach-to-Balance-Utilization-and-Anonymity-for-Instagram-Users.pdf
+        link: https://arxiv.org/abs/2201.07667
         additional_links:
           - title:  Anonymous commenting
             icon: fab fa-github
             url: github.com/arian-askari/anonymous-comment
         sub_title: On Anonymous Commenting: A Greedy Approach to Balance Utilization and Anonymity for Instagram Users
         description: | # this will include new lines to allow paragraphs
-            In many online services, anonymous commenting is not possible for the users; therefore, the users can not express their critical opinions without disregarding the consequences. As for now, naïve approaches are available for anonymous commenting which cause problems for analytical services on user comments. In this paper, we explore anonymous commenting approaches and their pros and cons. We also propose methods for anonymous commenting where it's possible to protect the user privacy while allowing sentimental analytics for service providers. Our experiments were conducted on a real dataset gathered from Instagram comments which indicate the effectiveness of our proposed methods in privacy protection and sentimental analytics. The proposed methods are independent of a particular website and can be utilized in various domains.
+            Expert finding has been well-studied in community question answering (QA) systems in various domains.
 #   - title: Education # Title for the section
 #     layout: list # Type of content section (list/text)
 #     content:
