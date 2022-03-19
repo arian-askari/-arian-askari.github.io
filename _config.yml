@@ -88,15 +88,15 @@ content:
 #     layout: list # Type of content section (list/text)
 #     content:
       - layout: left
-        title: ECIR 2022
-        link: https://arxiv.org/abs/2201.07667
+        title: SIGIR 2019
+        link: https://www.researchgate.net/profile/Arian-Askari/publication/334584778_On_Anonymous_Commenting_A_Greedy_Approach_to_Balance_Utilization_and_Anonymity_for_Instagram_Users/links/5e1f4c1b92851caecc836aa9/On-Anonymous-Commenting-A-Greedy-Approach-to-Balance-Utilization-and-Anonymity-for-Instagram-Users.pdf
         additional_links:
-          - title:  Legal Expert Finding
+          - title:  Anonymous commenting
             icon: fab fa-github
-            url: github.com/arian-askari/EF_in_Legal_CQA
-        sub_title: Expert Finding in Legal Community Question Answering
+            url: github.com/arian-askari/anonymous-comment
+        sub_title: On Anonymous Commenting: A Greedy Approach to Balance Utilization and Anonymity for Instagram Users
         description: | # this will include new lines to allow paragraphs
-            Expert finding has been well-studied in community question answering (QA) systems in various domains. However, none of these studies addresses expert finding in the legal domain, where the goal is for citizens to find lawyers based on their expertise. In the legal domain, there is a large knowledge gap between the experts and the searchers, and the content on the legal QA websites consist of a combination formal and informal communication. In this paper, we propose methods for generating query-dependent textual profiles for lawyers covering several aspects including sentiment, comments, and recency. We combine query-dependent profiles with existing expert finding methods. Our experiments are conducted on a novel dataset gathered from an online legal QA service. We discovered that taking into account different lawyer profile aspects improves the best baseline model. We make our dataset publicly available for future work.             
+            In many online services, anonymous commenting is not possible for the users; therefore, the users can not express their critical opinions without disregarding the consequences. As for now, naïve approaches are available for anonymous commenting which cause problems for analytical services on user comments. In this paper, we explore anonymous commenting approaches and their pros and cons. We also propose methods for anonymous commenting where it's possible to protect the user privacy while allowing sentimental analytics for service providers. Our experiments were conducted on a real dataset gathered from Instagram comments which indicate the effectiveness of our proposed methods in privacy protection and sentimental analytics. The proposed methods are independent of a particular website and can be utilized in various domains.
 #   - title: Education # Title for the section
 #     layout: list # Type of content section (list/text)
 #     content:
