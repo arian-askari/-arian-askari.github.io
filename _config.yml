@@ -49,7 +49,7 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Arian and I'm a PhD candidate at Leiden University. Here, I will write about my interests and research. 
-  I am most skilled in: <mark>Text Mining</mark> and <mark>Information Retrieval</mark>
+  I am most skilled in: <mark>Text Mining</mark> and <mark>Information Retrieval</mark>.
 
 content:
 #   - title: Projects # Title for the section
