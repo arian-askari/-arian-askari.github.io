@@ -76,7 +76,7 @@ content:
     content:
       - layout: left
         title: ECIR 2022
-        link: "https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/ecir2022_legal_expert_finding.pdf"
+        link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/ecir2022_legal_expert_finding.pdf
         additional_links:
           - title:  Legal Expert Finding
             icon: fab fa-github
@@ -87,7 +87,7 @@ content:
 
       - layout: left
         title: DESIRES 2021
-        link: "https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/desires2021.pdf"
+        link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/desires2021.pdf
         additional_links:
           - title:  longformer-based summarization for effective case law retrieval
             icon: fab fa-github
@@ -99,7 +99,7 @@ content:
 
       - layout: left
         title: SIGIR 2019
-        link: "https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/sigir2019_anonymous_commenting.pdf"
+        link: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/sigir2019_anonymous_commenting.pdf
         additional_links:
           - title:  Anonymous commenting
             icon: fab fa-github
