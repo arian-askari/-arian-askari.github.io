@@ -94,7 +94,7 @@ content:
           - title:  Anonymous commenting
             icon: fab fa-github
             url: github.com/arian-askari/anonymous-comment
-        sub_title: On Anonymous Commenting: A Greedy Approach to Balance Utilization and Anonymity for Instagram Users
+        sub_title: On Anonymous Commenting: A Greedy Approach
         description: | # this will include new lines to allow paragraphs
             Expert finding has been well-studied in community question answering (QA) systems in various domains.
 #   - title: Education # Title for the section
