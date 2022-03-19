@@ -94,9 +94,9 @@ content:
           - title:  Anonymous commenting
             icon: fab fa-github
             url: github.com/arian-askari/anonymous-comment
-        sub_title: On Anonymous Commenting A Greedy Approach
+        sub_title: "Anonymous Commenting: A Greedy Approach to Balance Utilization and Anonymity for Instagram Users"
         description: | # this will include new lines to allow paragraphs
-            Expert finding has been well-studied in community question answering (QA) systems in various domains.
+            "In many online services, anonymous commenting is not possible for the users; therefore, the users can not express their critical opinions without disregarding the consequences. As for now, naïve approaches are available for anonymous commenting which cause problems for analytical services on user comments. In this paper, we explore anonymous commenting approaches and their pros and cons. We also propose methods for anonymous commenting where it's possible to protect the user privacy while allowing sentimental analytics for service providers. Our experiments were conducted on a real dataset gathered from Instagram comments which indicate the effectiveness of our proposed methods in privacy protection and sentimental analytics. The proposed methods are independent of a particular website and can be utilized in various domains."
 #   - title: Education # Title for the section
 #     layout: list # Type of content section (list/text)
 #     content:
