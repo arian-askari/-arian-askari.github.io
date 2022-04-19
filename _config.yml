@@ -28,10 +28,10 @@ linkedin_username: arian-askari
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
-additional_links:
-- title: scholar link
-  icon: fas fa-box-archive
-  url: https://scholar.google.com/citations?user=fp9QtoEAAAAJ&hl=en
+# additional_links:
+# - title: scholar link
+#   icon: fas fa-box-archive
+#   url: https://scholar.google.com/citations?user=fp9QtoEAAAAJ&hl=en
 
 # Additional icon links
 # additional_links:
