@@ -30,7 +30,7 @@ linkedin_username: arian-askari
 # orcid_username: 0000-0000-0000-0000
 additional_links:
 - title: scholar link
-  icon: fa-regular fa-box-archive
+  icon: fas fa-box-archive
   url: https://scholar.google.com/citations?user=fp9QtoEAAAAJ&hl=en
 
 # Additional icon links
