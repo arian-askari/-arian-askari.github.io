@@ -79,6 +79,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: ECIR 2023 
+        additional_links:
+          - title:  See paper
+            icon: fas fa-file-pdf
+            url: comming soon!
+        sub_title: ""       
+        description: | # this will include new lines to allow paragraphs
+            In this paper we propose a novel approach for combining first-stage lexical retrieval models and Transformer-based re-rankers: we inject the relevance score of the lexical model as a token in the middle of the input of the cross-encoder re-ranker. It was shown in prior work that interpolation between the relevance score of lexical and BERT-based re-rankers may not consistently result in higher effectiveness. Our idea is motivated by the finding that BERT models can capture numeric information. We compare several representations of the BM25 score and inject them as text in the input of four different cross-encoders. We additionally analyze the effect for different query types, and investigate the effectiveness of our method for capturing exact matching relevance. Evaluation on the MSMARCO Passage collection and the TREC DL collections shows that the proposed method significantly improves over all cross-encoder re-rankers as well as the common interpolation methods. We show that the improvement is consistent for all query types. We also find an improvement in exact matching capabilities over both BM25 and the cross-encoders. Our findings indicate that cross-encoder re-rankers can efficiently be improved without additional computational burden and extra steps in the pipeline by explicitly adding the output of the first-stage ranker to the model input, and this effect is robust for different models and query types.
+
+      - layout: left
         title: COLIEE 2022
         additional_links:
           - title:  See paper
@@ -160,9 +170,13 @@ content:
     layout: text
     content: |+ # this will include new lines to allow paragraphs
       I have been reviewer for full paper track of the following conferences:
-      - ACL-IJCNLP 2021
+      - ACL 2023
+      - ECIR 2023
+      - EACL 2023
       - ECIR 2022
       - SIGIR 2022
+      - ACL-IJCNLP 2021
+
       
       I have been reviewer for the follwoing journal:
       - Artificial Intelligence In Medicine 2022 ([Volum 128](https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine))
