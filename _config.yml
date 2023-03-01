@@ -52,8 +52,9 @@ linkedin_username: arian-askari
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Arian and I'm a PhD candidate at Leiden University. Here, I will write about my interests and research. 
-  I am most skilled in: <mark>Text Mining</mark> and <mark>Information Retrieval</mark>.
+  Hi, I am Arian, PhD candidate at Leiden university supervised by Prof. Suzan Verberne and co-supervised by Gabriella Pasi. I research in the field of Information Retrieval on effective retrieval models for web and professional search. Currently, I am doing visiting research at the University of Amsterdam with Prof. Evangelos Kanoulas and Mohammad Aliannejadi in there I have focused on the conversational search and analyzing ChatGPT from a retrieval point of view.
+
+Find me on [Twitter](https://twitter.com/arian_ask), [GitHub](https://github.com/arian-askari/), or email me: a.askari@liacs.leidenuniv.nl
 
 content:
 #   - title: Projects # Title for the section
