@@ -89,15 +89,18 @@ content:
         description: | # this will include new lines to allow paragraphs
             In this paper we propose a novel approach for combining first-stage lexical retrieval models and Transformer-based re-rankers: we inject the relevance score of the lexical model as a token in the middle of the input of the cross-encoder re-ranker. It was shown in prior work that interpolation between the relevance score of lexical and BERT-based re-rankers may not consistently result in higher effectiveness. Our idea is motivated by the finding that BERT models can capture numeric information. We compare several representations of the BM25 score and inject them as text in the input of four different cross-encoders. We additionally analyze the effect for different query types, and investigate the effectiveness of our method for capturing exact matching relevance. Evaluation on the MSMARCO Passage collection and the TREC DL collections shows that the proposed method significantly improves over all cross-encoder re-rankers as well as the common interpolation methods. We show that the improvement is consistent for all query types. We also find an improvement in exact matching capabilities over both BM25 and the cross-encoders. Our findings indicate that cross-encoder re-rankers can efficiently be improved without additional computational burden and extra steps in the pipeline by explicitly adding the output of the first-stage ranker to the model input, and this effect is robust for different models and query types.
 
-#       - layout: left
-#         title: COLIEE 2022
-#         additional_links:
-#           - title:  See paper
-#             icon: fas fa-file-pdf
-#             url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/coliee_jurisin_2022.pdf
-#         sub_title: "LeiBi@COLIEE 2022: Aggregating Tuned Lexical Models with a Cluster-driven BERT-based Model for Case Law Retrieval"       
-#         description: | # this will include new lines to allow paragraphs
-#             This paper summarizes our approaches submitted to the case law retrieval task in the Competition on Legal Information Extraction/Entailment (COLIEE) 2022. Our methodology consists of four steps; in detail, given a legal case as a query, we reformulate it by extracting various meaningful sentences or n-grams. Then, we utilize the pre-processed query case to retrieve an initial set of possible relevant legal cases, which we further re-rank. Lastly, we aggregate the relevance scores obtained by the first stage and the re-ranking models to improve retrieval effectiveness. In each step of our methodology, we explore various well-known and novel methods. In particular, to reformulate the query cases aiming to make them shorter, we extract unigrams using three different statistical methods: KLI, PLM, IDF-r, as well as models that leverage embeddings (e.g., KeyBERT). Moreover, we investigate if automatic summarization using Longformer-Encoder-Decoder (LED) can produce an effective query representation for this retrieval task. Furthermore, we propose a novel re-ranking cluster-driven approach, which leverages Sentence-BERT models that are pre-tuned on large amounts of data for embedding sentences from query and candidate documents. Finally, we employ a linear aggregation method to combine the relevance scores obtained by traditional IR models and neural-based models, aiming to incorporate the semantic understanding of neural models and the statistically measured topical relevance. We show that aggregating these relevance scores can improve the overall retrieval effectiveness.
+      - layout: left
+        title: SIGIR 2019
+        additional_links:
+          - title:  See code
+            icon: fab fa-github
+            url: github.com/arian-askari/anonymous-comment
+          - title:  See paper
+            icon: fas fa-file-pdf
+            url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/sigir2019_anonymous_commenting.pdf
+        sub_title: "Anonymous Commenting: A Greedy Approach to Balance Utilization and Anonymity for Instagram Users"
+        description: | # this will include new lines to allow paragraphs
+            In many online services, anonymous commenting is not possible for the users; therefore, the users can not express their critical opinions without disregarding the consequences. As for now, naïve approaches are available for anonymous commenting which cause problems for analytical services on user comments. In this paper, we explore anonymous commenting approaches and their pros and cons. We also propose methods for anonymous commenting where it's possible to protect the user privacy while allowing sentimental analytics for service providers. Our experiments were conducted on a real dataset gathered from Instagram comments which indicate the effectiveness of our proposed methods in privacy protection and sentimental analytics. The proposed methods are independent of a particular website and can be utilized in various domains.
 
       - layout: left
         title: ECIR 2022
@@ -114,6 +117,20 @@ content:
             Expert finding has been well-studied in community question answering (QA) systems in various domains. However, none of these studies addresses expert finding in the legal domain, where the goal is for citizens to find lawyers based on their expertise. In the legal domain, there is a large knowledge gap between the experts and the searchers, and the content on the legal QA websites consist of a combination formal and informal communication. In this paper, we propose methods for generating query-dependent textual profiles for lawyers covering several aspects including sentiment, comments, and recency. We combine query-dependent profiles with existing expert finding methods. Our experiments are conducted on a novel dataset gathered from an online legal QA service. We discovered that taking into account different lawyer profile aspects improves the best baseline model. We make our dataset publicly available for future work. 
 
       - layout: left
+        title: CIKM 2018
+        additional_links:
+          - title:  See code
+            icon: fab fa-github
+            url: github.com/arashdn/Entity-Attribute-Identification
+          - title:  See paper
+            icon: fas fa-file-pdf
+            url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/cikm2018_entity_attr.pdf
+        sub_title: "Query Understanding via Entity Attribute Identification"
+        description: | # this will include new lines to allow paragraphs
+            Understanding searchers' queries is an essential component of semantic search systems. In many cases, search queries involve specific attributes of an entity in a knowledge base (KB), which can be further used to find query answers. In this study, we aim to move forward the understanding of queries by identifying their related entity attributes from a knowledge base. To this end, we introduce the task of entity attribute identification and propose two methods to address it:(i) a model based on Markov Random Field, and (ii) a learning to rank model. We develop a human annotated test collection and show that our proposed methods can bring significant improvements over the baseline methods.
+            
+
+      - layout: left
         title: DESIRES 2021
         additional_links:
           - title:  See code
@@ -128,30 +145,14 @@ content:
             
 
       - layout: left
-        title: SIGIR 2019
+        title: COLIEE 2022
         additional_links:
-          - title:  See code
-            icon: fab fa-github
-            url: github.com/arian-askari/anonymous-comment
           - title:  See paper
             icon: fas fa-file-pdf
-            url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/sigir2019_anonymous_commenting.pdf
-        sub_title: "Anonymous Commenting: A Greedy Approach to Balance Utilization and Anonymity for Instagram Users"
+            url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/coliee_jurisin_2022.pdf
+        sub_title: "LeiBi@COLIEE 2022: Aggregating Tuned Lexical Models with a Cluster-driven BERT-based Model for Case Law Retrieval"       
         description: | # this will include new lines to allow paragraphs
-            In many online services, anonymous commenting is not possible for the users; therefore, the users can not express their critical opinions without disregarding the consequences. As for now, naïve approaches are available for anonymous commenting which cause problems for analytical services on user comments. In this paper, we explore anonymous commenting approaches and their pros and cons. We also propose methods for anonymous commenting where it's possible to protect the user privacy while allowing sentimental analytics for service providers. Our experiments were conducted on a real dataset gathered from Instagram comments which indicate the effectiveness of our proposed methods in privacy protection and sentimental analytics. The proposed methods are independent of a particular website and can be utilized in various domains.
-
-      - layout: left
-        title: CIKM 2018
-        additional_links:
-          - title:  See code
-            icon: fab fa-github
-            url: github.com/arashdn/Entity-Attribute-Identification
-          - title:  See paper
-            icon: fas fa-file-pdf
-            url: https://raw.githubusercontent.com/arian-askari/arian-askari.github.io/main/papers/cikm2018_entity_attr.pdf
-        sub_title: "Query Understanding via Entity Attribute Identification"
-        description: | # this will include new lines to allow paragraphs
-            Understanding searchers' queries is an essential component of semantic search systems. In many cases, search queries involve specific attributes of an entity in a knowledge base (KB), which can be further used to find query answers. In this study, we aim to move forward the understanding of queries by identifying their related entity attributes from a knowledge base. To this end, we introduce the task of entity attribute identification and propose two methods to address it:(i) a model based on Markov Random Field, and (ii) a learning to rank model. We develop a human annotated test collection and show that our proposed methods can bring significant improvements over the baseline methods.
+            This paper summarizes our approaches submitted to the case law retrieval task in the Competition on Legal Information Extraction/Entailment (COLIEE) 2022. Our methodology consists of four steps; in detail, given a legal case as a query, we reformulate it by extracting various meaningful sentences or n-grams. Then, we utilize the pre-processed query case to retrieve an initial set of possible relevant legal cases, which we further re-rank. Lastly, we aggregate the relevance scores obtained by the first stage and the re-ranking models to improve retrieval effectiveness. In each step of our methodology, we explore various well-known and novel methods. In particular, to reformulate the query cases aiming to make them shorter, we extract unigrams using three different statistical methods: KLI, PLM, IDF-r, as well as models that leverage embeddings (e.g., KeyBERT). Moreover, we investigate if automatic summarization using Longformer-Encoder-Decoder (LED) can produce an effective query representation for this retrieval task. Furthermore, we propose a novel re-ranking cluster-driven approach, which leverages Sentence-BERT models that are pre-tuned on large amounts of data for embedding sentences from query and candidate documents. Finally, we employ a linear aggregation method to combine the relevance scores obtained by traditional IR models and neural-based models, aiming to incorporate the semantic understanding of neural models and the statistically measured topical relevance. We show that aggregating these relevance scores can improve the overall retrieval effectiveness.
             
 #   - title: Education # Title for the section
 #     layout: list # Type of content section (list/text)
