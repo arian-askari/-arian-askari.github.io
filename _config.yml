@@ -187,10 +187,10 @@ content:
     content: |+ # this will include new lines to allow paragraphs
       I have been reviewer for full paper track of the following conferences:
       - ACL 2023
-      - ECIR 2023
+      - SIGIR 2022, 2023
+      - WWW 20223
+      - ECIR 2022, 2023
       - EACL 2023
-      - ECIR 2022
-      - SIGIR 2022
       - ACL-IJCNLP 2021
 
       
