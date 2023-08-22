@@ -90,9 +90,6 @@ content:
         description: | # this will include new lines to allow paragraphs
             In this resource paper, we investigate the usefulness of generative Large Language Models (LLMs) in generating training data for cross-encoder re-rankers in a novel direction: generating synthetic documents instead of synthetic queries. We introduce a new dataset, ChatGPT-RetrievalQA, and compare the effectiveness of strong models fine-tuned on both LLM-generated and human-generated data. We build ChatGPT-RetrievalQA based on an existing dataset, human ChatGPT Comparison Corpus (HC3), consisting of public question collections with human responses and answers from ChatGPT. We fine-tune a range of cross-encoder re-rankers on either human-generated or ChatGPT-generated data. Our evaluation on MS MARCO DEV, TREC DL 2019, and TREC DL 2020 demonstrates that cross-encoder re-ranking models trained on LLM-generated responses are significantly more effective for out-of-domain re-ranking than those trained on human responses. For in-domain re-ranking, the human-trained re-rankers outperform the LLM-trained re-rankers. Our novel findings suggest that generative LLMs have high potential in generating training data for neural retrieval models and can be used to augment training data, especially in domains with smaller amounts of labeled data. We believe that our dataset, ChatGPT-RetrievalQA, presents various opportunities for analyzing and improving rankers with human and synthetic data. We release our data, code, and model checkpoints for future work.
 
-  - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: CIKM 2023 
         additional_links:
@@ -103,13 +100,10 @@ content:
         description: | # this will include new lines to allow paragraphs
             In this paper, we investigate the task of response ranking in conversational legal search. We propose a novel method for conversational passage response retrieval (ConvPR) for long conversations in domains with mixed levels of expertise. Conversational legal search is challenging because the domain includes long, multi-participant dialogues with domain-specific language. Furthermore, as opposed to other domains, there typically is a large knowledge gap between the questioner (a layman) and the responders (lawyers), participating in the same conversation. We collect and release a large-scale real-world dataset called LegalConv with nearly one million legal conversations from a legal community question answering (CQA) platform. We address the particular challenges of processing legal conversations, with our novel Conversational Legal Longformer with Expertise-Aware Response Ranker, called CLosER. The proposed method has two main innovations compared to state-ofthe-art methods for ConvPR: (i) Expertise-Aware Post-Training; a learning objective that takes into account the knowledge gap difference between participants to the conversation; and (ii) a simple but effective strategy for re-ordering the context utterances in long conversations to overcome the limitations of the sparse attention mechanism of the Longformer architecture. Evaluation on our large collection shows that our proposed method substantially and significantly outperforms existing state-of-the-art models on the response selection task. Our analysis indicates that our Expertise-Aware PostTraining, i.e., continued pre-training or domain/task adaptation, plays an important role in the achieved effectiveness. Our proposed method is generalizable to other tasks with domain-specific challenges and can facilitate future research on conversational search in other domains.
 
-  - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
       - layout: left
         title: ECIR 2023 
         additional_links:
-          - title:  Comming soon!
+          - title:  See paper
             icon: fas fa-file-pdf
             url: https://link.springer.com/chapter/10.1007/978-3-031-28244-7_5
         sub_title: "Injecting the BM25 Score as Text Improves BERT-Based Re-rankers"       
