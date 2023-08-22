@@ -52,7 +52,9 @@ linkedin_username: arian-askari
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I am Arian, PhD candidate at Leiden university supervised by Prof. Suzan Verberne and co-supervised by Gabriella Pasi. I research in the field of Information Retrieval on effective retrieval models for web and professional search. Currently, I am doing visiting research at the University of Amsterdam with Prof. Evangelos Kanoulas and Mohammad Aliannejadi in there I have focused on the conversational search and analyzing ChatGPT from a retrieval point of view.
+  As a PhD candidate and a Marie Skłodowska-Curie Research Fellow at Leiden University, I study large language models from a retrieval point of view and develop effective retrieval models for web and professional search. I have over four years of experience in data engineering, back-end development, and software engineering. I have published multiple papers at prestigious conferences during my PhD and MSc. My passion lies in pushing the boundaries of information retrieval through the capabilities of LLMs, while also applying these advancements to real-world issues and practical applications.
+  
+  I am also a Visiting Researcher at the University of Amsterdam where I do research in collaboration with Evangelos Kanoulas and Mohammad Aliannejadi. My initial project during this visit delved into a research on conversational search in the legal domain, and its outcome is recently published at CIKM 2023 long paper track. Currently, my research revolves around the training and analyzing Large Language Models (LLMs) for text retrieval tasks and the early outcome of it is a resource paper at CIKM titled "A Test Collection of Synthetic Documents for Training Rankers: ChatGPT vs. Human Experts" that analyze whether ChatGPT's responses can act as training data for Q&A retrieval models.
 
 Find me on [Twitter](https://twitter.com/arian_ask), [GitHub](https://github.com/arian-askari/), or email me: a.askari@liacs.leidenuniv.nl
 
