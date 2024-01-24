@@ -81,7 +81,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: EMNLP 2023 (Main track)
+        title: EMNLP 2023 -- Main track
         additional_links:
           - title:  Comming soon!
             icon: fas fa-file-pdf
