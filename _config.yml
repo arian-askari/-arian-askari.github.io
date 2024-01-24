@@ -250,7 +250,7 @@ content:
             icon: fas fa-file-pdf
             url: https://arxiv.org/abs/2401.04852
          - title:  See slide
-            icon: fas fa-file-ppt
+            icon: fas fa-file-pdf
             url: https://github.com/arian-askari/arian-askari.github.io/blob/main/slides/leiden_datascience_meetup_sept2023_chatgpt_cikm_paper.pdf            
         sub_title: "Generating Synthetic Documents for Cross-Encoder Re-Rankers: A comparative study of ChatGPT versus human experts"       
         description: | # this will include new lines to allow paragraphs
