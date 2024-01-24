@@ -249,9 +249,6 @@ content:
           - title:  See paper
             icon: fas fa-file-pdf
             url: https://arxiv.org/abs/2401.04852
-         - title:  See slide
-            icon: fas fa-file-pdf
-            url: https://github.com/arian-askari/arian-askari.github.io/blob/main/slides/leiden_datascience_meetup_sept2023_chatgpt_cikm_paper.pdf            
         sub_title: "Generating Synthetic Documents for Cross-Encoder Re-Rankers: A comparative study of ChatGPT versus human experts"       
         description: | # this will include new lines to allow paragraphs
             I presented our latest paper, which has been accepted at CIKM 2023, and talked about the usefulness of generative Large Language Models (LLMs), particularly hashtag ChatGPT, in generating training data for cross-encoder re-rankers. What made it fascinating to me was the various audience's anticipation before they saw the results. A key highlight of my talk was that ChatGPT-trained cross-encoder re-rankers significantly outperformed their human-trained counterparts when dealing with out-of-domain datasets. This raises questions about the potential for Language Models (LLMs) to replace humans in data augmentation for synthetic document generation for information retrieval models in the future. 
