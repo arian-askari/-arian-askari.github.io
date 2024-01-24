@@ -91,9 +91,32 @@ content:
             Generating synthetic training data based on large language models (LLMs) for ranking models has gained attention recently. Prior studies use LLMs to build pseudo query-document pairs by generating synthetic queries from documents in a corpus. In this paper, we propose a new perspective of data augmentation: generating synthetic documents from queries. To achieve this, we propose DocGen, that consists of a three-step pipeline that utilizes the few-shot capabilities of LLMs. DocGen pipeline performs synthetic document generation by (i) expanding, (ii) highlighting the original query, and then (iii) generating a synthetic document that is likely to be relevant to the query. To further improve the relevance between generated synthetic documents and their corresponding queries, we propose DocGen-RL, which regards the estimated relevance of the document as a reward and leverages reinforcement learning (RL) to optimize DocGen pipeline. Extensive experiments demonstrate that DocGen pipeline and DocGen-RL significantly outperform existing state-of-theart data augmentation methods, such as InPars, indicating that our new perspective of generating documents leverages the capacity of LLMs in generating synthetic data more effectively. We release the code, generated data, and model checkpoints to foster research in this area.
 
       - layout: left
-        title: CIKM 2023 
+        title: ECIR 2024
+        additional_links:
+          - title:  See paper
+            icon: fas fa-file-pdf
+            url: https://arxiv.org/abs/2401.04852
+        sub_title: "Answer Retrieval in Legal Community Question Answering"       
+        description: | # this will include new lines to allow paragraphs
+            The task of answer retrieval in the legal domain aims to help users to seek relevant legal advice from massive amounts of professional responses. Two main challenges hinder applying existing answer retrieval approaches in other domains to the legal domain: (1) a huge knowledge gap between lawyers and non-professionals; and (2) a mix of informal and formal content on legal QA websites. To tackle these challenges, we propose CE_FS, a novel cross-encoder (CE) re-ranker based on the fine-grained structured inputs. CE_FS uses additional structured information in the CQA data to improve the effectiveness of cross-encoder re-rankers. Furthermore, we propose LegalQA: a real-world benchmark dataset for evaluating answer retrieval in the legal domain. Experiments conducted on LegalQA show that our proposed method significantly outperforms strong cross-encoder re-rankers fine-tuned on MS MARCO. Our novel finding is that adding the question tags of each question besides the question description and title into the input of cross-encoder re-rankers structurally boosts the rankers' effectiveness. While we study our proposed method in the legal domain, we believe that our method can be applied in similar applications in other domains.
+
+
+      - layout: left
+        title: ECIR 2024
         additional_links:
           - title:  Comming soon!
+            icon: fas fa-file-pdf
+            url: https://arxiv.org/abs/2401.04852
+        sub_title: "Answer Retrieval in Legal Community Question Answering"       
+        description: | # this will include new lines to allow paragraphs
+            The task of answer retrieval in the legal domain aims to help users to seek relevant legal advice from massive amounts of professional responses. Two main challenges hinder applying existing answer retrieval approaches in other domains to the legal domain: (1) a huge knowledge gap between lawyers and non-professionals; and (2) a mix of informal and formal content on legal QA websites. To tackle these challenges, we propose CE_FS, a novel cross-encoder (CE) re-ranker based on the fine-grained structured inputs. CE_FS uses additional structured information in the CQA data to improve the effectiveness of cross-encoder re-rankers. Furthermore, we propose LegalQA: a real-world benchmark dataset for evaluating answer retrieval in the legal domain. Experiments conducted on LegalQA show that our proposed method significantly outperforms strong cross-encoder re-rankers fine-tuned on MS MARCO. Our novel finding is that adding the question tags of each question besides the question description and title into the input of cross-encoder re-rankers structurally boosts the rankers' effectiveness. While we study our proposed method in the legal domain, we believe that our method can be applied in similar applications in other domains.
+
+
+
+      - layout: left
+        title: CIKM 2023 
+        additional_links:
+          - title:  See paper
             icon: fas fa-file-pdf
             url: comming soon!
         sub_title: "A Test Collection of Synthetic Documents for Training Rankers: ChatGPT vs. Human Experts"       
@@ -103,7 +126,7 @@ content:
       - layout: left
         title: CIKM 2023 
         additional_links:
-          - title:  Comming soon!
+          - title:  See paper
             icon: fas fa-file-pdf
             url: comming soon!
         sub_title: "CLosER: Conversational Legal Longformer with Expertise-Aware Passage Response Ranker for Long Contexts"       
