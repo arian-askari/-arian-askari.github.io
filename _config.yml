@@ -83,7 +83,7 @@ content:
       - layout: left
         title: "EMNLP 2023 -- Main track"
         additional_links:
-          - title:  Comming soon!
+          - title:  See paper
             icon: fas fa-file-pdf
             url: https://aclanthology.org/2023.emnlp-main.623/
         sub_title: "Expand, Highlight, Generate: RL-driven Document Generation for Passage Reranking"       
